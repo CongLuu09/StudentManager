@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StudentManagerActivity"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center"
+    android:background="@color/light_gray"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quản Lý Sinh Viên"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:paddingBottom="20dp"/>
+
+    <Button
+        android:id="@+id/btnAddStudent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="➕ Thêm Sinh Viên"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/blue"
+        android:padding="12dp"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/btnViewStudents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📋 Xem Danh Sách"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/green"
+        android:padding="12dp"
+        android:layout_marginBottom="12dp"/>
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🔙 Quay Lại"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/red"
+        android:padding="12dp"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

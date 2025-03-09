@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Hình chữ nhật nền -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#F44336"/>
+            <corners android:radius="5dp"/>
+            <size android:width="50dp" android:height="30dp"/>
+        </shape>
+    </item>
+
+    <!-- Mũi tên thoát -->
+    <item android:left="35dp" android:top="5dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#FFFFFF"/>
+            <size android:width="10dp" android:height="5dp"/>
+        </shape>
+    </item>
+
+    <item android:left="30dp" android:top="10dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#FFFFFF"/>
+            <size android:width="20dp" android:height="5dp"/>
+        </shape>
+    </item>
+
+    <item android:left="35dp" android:top="15dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#FFFFFF"/>
+            <size android:width="10dp" android:height="5dp"/>
+        </shape>
+    </item>
+
+</layer-list>
